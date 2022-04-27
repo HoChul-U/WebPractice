@@ -1,5 +1,8 @@
 package com.nhnacademy.servlet;
 
+import lombok.NoArgsConstructor;
+
+
 public class Food {
     private String foodName;
     private int foodMoney;
@@ -30,9 +33,9 @@ public class Food {
 
     @Override
     public String toString() {
-        return "| 품목 ='" + foodName + "<br>" +
+        return"<br>"+
+            "| 품목 ='" + foodName + "<br>" +
             "| 가격 =" + foodMoney +"<br>"+
             "| 수량 =" + foodCount +"<br>";
     }
-
 }

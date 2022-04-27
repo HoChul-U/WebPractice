@@ -16,7 +16,6 @@ import static java.lang.Integer.parseInt;
 @Slf4j
 public class Cart extends HttpServlet {
     private int money;
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         if(getServletContext().getAttribute("onion")==null)

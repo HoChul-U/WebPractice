@@ -18,7 +18,7 @@ public class CounterFilter implements Filter{
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         ServletContext servletContext = servletRequest.getServletContext();
-        String fileName ="D:\\Study\\nhnmartservlet\\src\\main\\resources\\"+servletContext.getInitParameter("counter");
+        String fileName ="C:\\Users\\koohh\\Study\\git_fork\\WebPractice\\src\\main\\resources\\"+servletContext.getInitParameter("counter");
         System.out.println(fileName);
         Integer counter = null;
         String line = null;
@@ -31,9 +31,8 @@ public class CounterFilter implements Filter{
         counter = Integer.parseInt(line);
         counter = Optional.ofNullable(counter).orElse(0);
         counter +=1;
-        log.error(counter+"GGGGGG");
+        log.error("Counter :"+counter);
         filterChain.doFilter(servletRequest,servletResponse);
-        //inputStream 형식으로 읽으니 null 이 계속 뜬다
         try(BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))){
             writer.write(counter.toString());
         }catch (IOException e) {

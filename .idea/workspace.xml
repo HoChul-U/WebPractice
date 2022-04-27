@@ -2,14 +2,58 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="nhnmartservlet:war exploded" />
+      <artifact name="WebPractice:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea74fd4-8fd6-4dc5-91da-a42ffcafe189" name="Changes" comment="" />
+    <list default="true" id="5ea74fd4-8fd6-4dc5-91da-a42ffcafe189" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/language.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/language_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/language_ko.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/foodlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e6d3b70c9f5b02570779b0441540d45eceb0ded" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/filter/CharacterEncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/filter/CharacterEncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/filter/CounterFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/filter/CounterFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/filter/LoginCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/login/LogInServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/login/LogInServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/FoodList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/FoodList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/counter.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/counter.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/filter/CharacterEncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/filter/CharacterEncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/filter/CounterFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/filter/CounterFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/filter/LoginCheckFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/login/LogInServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/login/LogInServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/FoodList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/FoodList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/counter.dat" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/counter.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/filter/CharacterEncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/filter/CharacterEncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/filter/CounterFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/filter/CounterFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/filter/LoginCheckFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/login/LogInServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/login/LogInServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/FoodList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/FoodList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/counter.dat" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/counter.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/login.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +64,13 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="jsf" />
+        <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -52,6 +101,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
@@ -78,14 +128,15 @@
     <configuration name="Tomcat 9.0.62" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.62" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="nhnmartservlet:war exploded">
+        <artifact name="WebPractice:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="b26a3d71-2b7b-4f44-932d-f707181f12f5" />
+        <option name="BASE_DIRECTORY_NAME" value="fb425076-7e32-4956-b6da-e8a2394f47e5" />
+        <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -93,7 +144,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55050" />
+        <option name="DEBUG_PORT" value="56691" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -158,7 +209,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="nhnmartservlet:war exploded" />
+          <artifact name="WebPractice:war exploded" />
         </option>
       </method>
     </configuration>
@@ -176,11 +227,26 @@
       <workItem from="1650889190915" duration="17403000" />
       <workItem from="1650968419367" duration="8395000" />
       <workItem from="1650979886666" duration="12765000" />
+      <workItem from="1651043589778" duration="4584000" />
+      <workItem from="1651048761982" duration="534000" />
+      <workItem from="1651049417594" duration="457000" />
+      <workItem from="1651049931722" duration="5820000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

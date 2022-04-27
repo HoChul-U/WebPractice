@@ -1,5 +1,6 @@
 package com.nhnacademy.login;
 
+import javax.servlet.DispatcherType;
 import lombok.extern.slf4j.Slf4j;
 
 import javax.servlet.RequestDispatcher;
@@ -26,7 +27,6 @@ public class LogInServlet extends HttpServlet {
     @Override
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
-
         configId = config.getInitParameter("id");
         configPassword = config.getInitParameter("pwd");
     }
@@ -35,14 +35,9 @@ public class LogInServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String id = req.getParameter("id");
         String password = req.getParameter("password");
-
         if (id.equals(configId) && password.equals(configPassword)) {
             HttpSession session = req.getSession();
             session.setAttribute("id", id);
-
-//            RequestDispatcher rd = req.getRequestDispatcher("/login");
-//            rd.forward(req, resp);
-            // 요청처리가 별개이면 sendRedirect -> method가 바뀌지 않아서 POST요청만 계속 됨
             resp.sendRedirect("/login");
         } else {
             RequestDispatcher rd = req.getRequestDispatcher("/login.html");
@@ -57,14 +52,8 @@ public class LogInServlet extends HttpServlet {
         if (Objects.isNull(session)) {
             resp.sendRedirect("/login.html");
         } else {
-            resp.setContentType("text/html");
-            resp.getWriter().println("login success: " + session.getAttribute("id"));
-            resp.getWriter().println("<a href=\"/logout\">LOGOUT</a>");
-            resp.getWriter().println("<br>");
-            resp.getWriter().println("<a href=\"/foods\">FOODS</a>");
-            resp.getWriter().println("<br>");
-            resp.getWriter().println("<a href=\"/cart\">CART</a>");
-
+            RequestDispatcher rd = req.getRequestDispatcher("/login.jsp");
+            rd.forward(req,resp);
         }
     }
 }
