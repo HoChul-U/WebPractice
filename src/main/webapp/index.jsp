@@ -12,10 +12,10 @@
 </head>
 <body>
 <li>
-    <a href="/foods">Foods</a>
+    <a href="/foods.do">Foods</a>
 </li>
 <li>
-    <a href="/cart">Cart</a>
+    <a href="/cart.do">Cart</a>
 </li>
 </body>
 </html>

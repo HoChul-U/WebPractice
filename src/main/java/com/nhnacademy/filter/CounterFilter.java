@@ -18,7 +18,7 @@ public class CounterFilter implements Filter{
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         ServletContext servletContext = servletRequest.getServletContext();
-        String fileName ="C:\\Users\\koohh\\Study\\git_fork\\WebPractice\\src\\main\\resources\\"+servletContext.getInitParameter("counter");
+        String fileName ="D:\\Study\\Fork\\WebPractice\\src\\main\\resources\\"+servletContext.getInitParameter("counter");
         System.out.println(fileName);
         Integer counter = null;
         String line = null;

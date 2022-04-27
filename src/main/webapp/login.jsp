@@ -4,5 +4,5 @@
 
 login success : <% session.getAttribute("id");%><br>
 <a href ="/logout">Logout</a><br>
-<a href="/foods">FOOD</a><br>
-<a href="/cart">CART</a><br>
+<a href="/foods.do">FOOD</a><br>
+<a href="/cart.do">CART</a><br>

@@ -1,58 +1,80 @@
 package com.nhnacademy.servlet;
 
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebInitParam;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Objects;
 
 import static java.lang.Integer.parseInt;
 
-@WebServlet(name = "cart",urlPatterns = "/cart")
+@WebServlet(name = "cart", urlPatterns = "/cart" )
 @Slf4j
 public class Cart extends HttpServlet {
-    private int money;
+    int money;
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        if(getServletContext().getAttribute("onion")==null)
-            resp.sendError(588, "init부터 실행하여주세요");
-        try (PrintWriter out = resp.getWriter()) {
-            for (Food food : Units.getFoodList()) {
-                out.println(food.getFoodName() + "  :  " + food.getFoodCount());
-            }
-            out.println("final price :" + money);
+        if (getServletContext().getAttribute("onion") == null) {
+            RequestDispatcher requestDispatcher = req.getRequestDispatcher("error.jsp");
+            requestDispatcher.forward(req, resp);
         }
+        req.setAttribute("view","/cart.jsp");
+//        try (PrintWriter out = resp.getWriter()) {
+//            for (Food food : Units.getFoodList()) {
+//                out.println(food.getFoodName() + "  :  " + food.getFoodCount());
+//            }
+//            out.println("final price :" + req.getAttribute("money"));
+//        }
     }
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        Integer money;
+        if(Objects.isNull(req.getAttribute("money"))){
+            money = 0;
+        } else {
+            money = (Integer) req.getAttribute("money");
+        }
         try (PrintWriter out = resp.getWriter()) {
-            if (isFoodOverCount(req, "onion", 0)) {
-                resp.sendError(588, "수량과맞지않는 숫자가 입력되었습니다.");
-            }
-            if (isFoodOverCount(req, "eggs", 1)) {
-                resp.sendError(588, "수량과맞지않는 숫자가 입력되었습니다.");
-            }
-            if (isFoodOverCount(req, "welshOnion", 2)) {
-                resp.sendError(588, "수량과맞지않는 숫자가 입력되었습니다.");
-            }
-            if (isFoodOverCount(req, "apple", 3)) {
-                resp.sendError(588, "수량과맞지않는 숫자가 입력되었습니다.");
-            }
+            RequestDispatcher requestDispatcher = req.getRequestDispatcher("error.jsp");
+            noFoodException(req, resp, requestDispatcher);
             for (Food food : Units.getFoodList()) {
                 log.info(req.getParameter(food.getFoodName()));
                 Units.setFoodList(getServletContext(), food.getFoodName(), parseInt(req.getParameter(food.getFoodName())));
                 money += food.getFoodMoney() * parseInt(req.getParameter(food.getFoodName()));
+                log.error(String.valueOf(money));
             }
-            resp.sendRedirect("/cart");
+            req.setAttribute("money",String.valueOf(money));
+            RequestDispatcher rd = req.getRequestDispatcher("/cart.jsp");
+            rd.forward(req,resp);
         }
     }
 
     private boolean isFoodOverCount(HttpServletRequest req, String food, int index) {
         return Integer.parseInt(req.getParameter(food)) < 0
                 || Integer.parseInt(req.getParameter(food)) > Units.getFoodList().get(index).getFoodCount();
+    }
+
+    private void noFoodException(HttpServletRequest req, HttpServletResponse resp, RequestDispatcher requestDispatcher) throws ServletException, IOException {
+        if (isFoodOverCount(req, "onion", 0)) {
+            requestDispatcher.forward(req, resp);
+        }
+        if (isFoodOverCount(req, "eggs", 1)) {
+            requestDispatcher.forward(req, resp);
+        }
+        if (isFoodOverCount(req, "welshOnion", 2)) {
+            requestDispatcher.forward(req, resp);
+        }
+        if (isFoodOverCount(req, "apple", 3)) {
+            requestDispatcher.forward(req, resp);
+        }
     }
 }

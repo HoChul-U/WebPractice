@@ -19,7 +19,7 @@
     </body>
 </html>
 <c:forEach var="food" items="${foodList}">
-    수량 : <li>${food.foodCount()}</li><br>
-    품몫 : <li>${food.foodName()}</li><br>
-    가격 : <li>${food.foodMoney()}</li><br>
+    수량 : ${food.getFoodCount()}<br>
+    품몫 : ${food.getFoodName()}<br>
+    가격 : ${food.getFoodMoney()}<br>
 </c:forEach>

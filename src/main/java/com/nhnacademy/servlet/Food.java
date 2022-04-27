@@ -7,7 +7,7 @@ public class Food {
     private String foodName;
     private int foodMoney;
     private int foodCount;
-
+    private int amount;
 
     public String getFoodName() {
         return foodName;
@@ -29,6 +29,7 @@ public class Food {
         this.foodName = foodName;
         this.foodMoney = foodMoney;
         this.foodCount = foodCount;
+        this.amount = foodCount;
     }
 
     @Override
@@ -36,6 +37,6 @@ public class Food {
         return"<br>"+
             "| 품목 ='" + foodName + "<br>" +
             "| 가격 =" + foodMoney +"<br>"+
-            "| 수량 =" + foodCount +"<br>";
+            "| 수량 =" + (this.amount-this.foodCount) +"<br>";
     }
 }

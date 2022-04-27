@@ -3,6 +3,7 @@ package com.nhnacademy.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,15 +19,9 @@ public class FoodList extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Units.inputFood(getServletContext());
-        try (PrintWriter out = resp.getWriter()) {
-            req.setAttribute("foodList",Units.getFoodList());
-            RequestDispatcher rd = req.getRequestDispatcher("foodlist.jsp");
-            rd.forward(req,resp);
-//            for (Food food : Units.getFoodList()) {
-//                out.println("<li>");
-//                out.println(food.toString());
-//                out.println("</li>");
-//            }
-        }
+        req.setAttribute("foodList",Units.getFoodList());
+        req.setAttribute("view","foodlist.jsp");
+//            RequestDispatcher rd = req.getRequestDispatcher("foodlist.jsp");
+//            rd.forward(req,resp);
     }
 }

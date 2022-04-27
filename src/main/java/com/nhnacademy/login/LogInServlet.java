@@ -39,7 +39,9 @@ public class LogInServlet extends HttpServlet {
             HttpSession session = req.getSession();
             session.setAttribute("id", id);
             resp.sendRedirect("/login");
+            //req.setAttribute("view","redirect:login");
         } else {
+            //req.setAttribute("view","/login.html");
             RequestDispatcher rd = req.getRequestDispatcher("/login.html");
             rd.forward(req, resp);
         }
@@ -50,10 +52,12 @@ public class LogInServlet extends HttpServlet {
         log.error("/login.doGet()");
         HttpSession session = req.getSession(false);
         if (Objects.isNull(session)) {
+            //req.setAttribute("view","/login.html");
             resp.sendRedirect("/login.html");
         } else {
             RequestDispatcher rd = req.getRequestDispatcher("/login.jsp");
             rd.forward(req,resp);
+            //req.setAttribute("view","/login.jsp");
         }
     }
 }

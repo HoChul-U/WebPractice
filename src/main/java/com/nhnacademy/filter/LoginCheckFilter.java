@@ -30,7 +30,6 @@ public class LoginCheckFilter implements Filter {
     public void init(FilterConfig filterConfig) throws ServletException {
         String blacklist = filterConfig.getInitParameter("blacklist");
         log.error("blacklist={}", blacklist);
-
         urls = Arrays.stream(blacklist.split("\n"))
                 .map(String::trim)
                 .collect(Collectors.toList());
