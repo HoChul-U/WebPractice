@@ -9,48 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea74fd4-8fd6-4dc5-91da-a42ffcafe189" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/FrontServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/loginForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/filter/CounterFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/filter/CounterFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/filter/LoginCheckFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/initializer/MartContainerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/initializer/MartContainerInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/login/LogInServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/login/LogInServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/FoodList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/FoodList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/Units.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/servlet/Units.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/counter.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/counter.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/filter/CounterFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/filter/CounterFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/filter/LoginCheckFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/initializer/MartContainerInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/initializer/MartContainerInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/login/LogInServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/login/LogInServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/FoodList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/FoodList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/Units.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nhnacademy/servlet/Units.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/counter.dat" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/counter.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/filter/CounterFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/filter/CounterFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/filter/LoginCheckFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/initializer/MartContainerInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/initializer/MartContainerInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/login/LogInServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/login/LogInServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/FoodList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/FoodList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/Units.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/nhnacademy/servlet/Units.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/counter.dat" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/counter.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/foodlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/foodlist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet-1.0-SNAPSHOT/login.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="5ea74fd4-8fd6-4dc5-91da-a42ffcafe189" name="Changes" comment="login logout 부분 제외하고 FrontServlet 에서 처리가능" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,6 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
@@ -228,8 +188,16 @@
       <workItem from="1651048761982" duration="534000" />
       <workItem from="1651049417594" duration="457000" />
       <workItem from="1651049931722" duration="5820000" />
-      <workItem from="1651066759145" duration="11796000" />
+      <workItem from="1651066759145" duration="11992000" />
     </task>
+    <task id="LOCAL-00001" summary="login logout 부분 제외하고 FrontServlet 에서 처리가능">
+      <created>1651079172996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651079172996</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +213,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="login logout 부분 제외하고 FrontServlet 에서 처리가능" />
+    <option name="LAST_COMMIT_MESSAGE" value="login logout 부분 제외하고 FrontServlet 에서 처리가능" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
